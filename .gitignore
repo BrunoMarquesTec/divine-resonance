@@ -1,0 +1,69 @@
+# =========================
+# Node / Package managers
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =========================
+# Build / Output
+# =========================
+dist/
+build/
+out/
+coverage/
+.tmp/
+temp/
+.cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains (WebStorm/IntelliJ)
+.idea/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Optional: lockfiles (escolha conforme seu gerenciador)
+# =========================
+# Se você usa npm, NÃO ignore package-lock.json
+# Se você usa yarn, NÃO ignore yarn.lock
+# Se você usa pnpm, NÃO ignore pnpm-lock.yaml
+#
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
