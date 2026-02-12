@@ -18,14 +18,14 @@ const VideoPlayer: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full max-w-xl overflow-hidden">
+    <div className="relative w-full overflow-hidden">
       {React.createElement('vturb-smartplayer', {
         id: PLAYER_ELEMENT_ID,
         style: {
           display: 'block',
           margin: '0 auto',
           width: '100%',
-          maxWidth: '560px',
+          maxWidth: '920px',
         },
       })}
     </div>
